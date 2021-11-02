@@ -5,7 +5,7 @@ const timer1 = function(number){
   for(let seconds of number)
 {
   setTimeout(() => {
-    process.stdout.write('BEEP');;
+    process.stdout.write('\x07');;
 
 
     }, 1000 * seconds)
